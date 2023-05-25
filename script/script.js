@@ -1,15 +1,15 @@
 window.onload = function(){
-    const imgs = document.querySelectorAll("img")
-    
-
-    imgs.forEach((img)=>{
-       img.addEventListener('click', ()=>{
-        img.classList.toggle('clickedImg')
-        // Criar janela expandir img
+    const containerImg = document.querySelectorAll(".container")
+    const body = document.querySelector('body')
+    let backGround ;
+           
+    containerImg.forEach((img)=>{
+        img.addEventListener('click', ()=>{
+         img.classList.toggle('clickedImg');
+        
+        });
        
-       }) 
+     })
 
-    })
-
-  
 }
+
